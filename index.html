@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body style="background-color: #fefdfe">
+    <div class="container local">
+      <div class="center-align">
+        <h5>
+        LOCAL STORAGE
+        <input id="getData" type="text" style="font-family: 'Cinzel', serif; width: 55vw;" >
+        <input id="button" class="center-align" type="submit" value="Submit" onclick="
+          var guyWhoWentToBedWithStockingsOn = document.getElementById('getData').value;
+          window.localStorage.setItem('guyWhoWentToBedWithStockingsOn', guyWhoWentToBedWithStockingsOn);
+          document.getElementById('displayHeader').innerHTML = window.localStorage.getItem('guyWhoWentToBedWithStockingsOn');
+        "/></h5>
+      </div>
+      <div>
+        <h4>
+        <span>Result from local storage: </span><span id="displayHeader"></span>
+        </h4>
+      </div>
+      <script>
+        document.getElementById('displayHeader').innerHTML = window.localStorage.getItem('guyWhoWentToBedWithStockingsOn');
+      </script>
+    </div>
+    
+    <div class="container session">
+      <div class="center-align">
+        <h5>
+        SESSION STORAGE
+        <input id="sessionGetData" type="text" style="font-family: 'Cinzel', serif; width: 55vw;" >
+        <input id="button" class="center-align" type="submit" value="Submit" onclick="
+          var guyWhoWentToBedWithStockingsOn = document.getElementById('sessionGetData').value;
+          window.sessionStorage.setItem('guyWhoWentToBedWithStockingsOn', guyWhoWentToBedWithStockingsOn);
+          document.getElementById('sessionDisplayHeader').innerHTML = window.sessionStorage.getItem('guyWhoWentToBedWithStockingsOn');
+        "/></h5>
+      </div>
+      <div>
+        <h4>
+        <span>Result from session storage: </span><span id="sessionDisplayHeader"></span>
+        </h4>
+      </div>
+      <script>
+        document.getElementById('sessionDisplayHeader').innerHTML = window.sessionStorage.getItem('guyWhoWentToBedWithStockingsOn');
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/github.io/deltarune-tube/static/css/main.24e89a74.css",
+    "main.js": "/github.io/deltarune-tube/static/js/main.0c80d5da.js",
+    "static/js/453.62e5cc10.chunk.js": "/github.io/deltarune-tube/static/js/453.62e5cc10.chunk.js",
+    "static/media/next.png": "/github.io/deltarune-tube/static/media/next.2983a34d34b08dcc7c6d.png",
+    "index.html": "/github.io/deltarune-tube/index.html",
+    "main.24e89a74.css.map": "/github.io/deltarune-tube/static/css/main.24e89a74.css.map",
+    "main.0c80d5da.js.map": "/github.io/deltarune-tube/static/js/main.0c80d5da.js.map",
+    "453.62e5cc10.chunk.js.map": "/github.io/deltarune-tube/static/js/453.62e5cc10.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24e89a74.css",
+    "static/js/main.0c80d5da.js"
+  ]
+}

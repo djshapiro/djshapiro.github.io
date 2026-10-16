@@ -463,6 +463,14 @@
     position: fixed;
   }
 
+  .static {
+    position: static;
+  }
+
+  .sticky {
+    position: sticky;
+  }
+
   .\!container {
     width: 100% !important;
   }
@@ -535,6 +543,10 @@
     display: block;
   }
 
+  .contents {
+    display: contents;
+  }
+
   .flex {
     display: flex;
   }
@@ -549,6 +561,10 @@
 
   .inline-block {
     display: inline-block;
+  }
+
+  .inline-flex {
+    display: inline-flex;
   }
 
   .h-5 {

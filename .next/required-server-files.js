@@ -108,7 +108,7 @@ self.__SERVER_FILES_MANIFEST={
     },
     "outputFileTracingRoot": "/Users/dan/code/djshapiro.github.io",
     "enablePrerenderSourceMaps": true,
-    "cacheComponents": true,
+    "cacheComponents": false,
     "cacheLife": {
       "default": {
         "stale": 300,
@@ -163,7 +163,7 @@ self.__SERVER_FILES_MANIFEST={
       "serverMinification": true,
       "linkNoTouchStart": false,
       "caseSensitiveRoutes": false,
-      "cachedNavigations": true,
+      "cachedNavigations": false,
       "dynamicOnHover": false,
       "reactBrowserBailout": true,
       "useOffline": false,
@@ -229,7 +229,7 @@ self.__SERVER_FILES_MANIFEST={
       "transitionIndicator": false,
       "gestureTransition": false,
       "inlineCss": false,
-      "useCache": true,
+      "useCache": false,
       "useCacheStaticRootParamTracking": false,
       "globalNotFound": false,
       "explicitParallelRouteChildren": true,
@@ -325,7 +325,6 @@ self.__SERVER_FILES_MANIFEST={
         "react-icons/vsc",
         "react-icons/wi"
       ],
-      "cacheComponents": true,
       "useCacheTimeout": 54,
       "instantInsights": {
         "validationLevel": "warning"
@@ -336,7 +335,6 @@ self.__SERVER_FILES_MANIFEST={
     "htmlLimitedBots": "[\\w-]+-Google|Google-[\\w-]+|Chrome-Lighthouse|Slurp|DuckDuckBot|baiduspider|yandex|sogou|bitlybot|tumblr|vkShare|quora link preview|redditbot|ia_archiver|Bingbot|BingPreview|applebot|facebookexternalhit|facebookcatalog|Twitterbot|LinkedInBot|Slackbot|Discordbot|WhatsApp|SkypeUriPreview|Yeti|googleweblight",
     "bundlePagesRouterDependencies": false,
     "configFileName": "next.config.ts",
-    "partialPrefetching": true,
     "turbopack": {
       "rules": {
         "*.css": {

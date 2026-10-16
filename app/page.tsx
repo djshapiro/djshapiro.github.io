@@ -9,7 +9,7 @@ const videos = [
   "https://www.youtube.com/embed/NlrYJXWF-yQ?si=zIgmL20c8FZ45yZU",
 ]
 
-const random = (array) => {
+const random = (array: any[]) => {
   return array[Math.floor(Math.random() * array.length)];
 }
 
@@ -27,13 +27,13 @@ export default function Home() {
 
   return (
     <div className="App">
-      <Image src={tenna} width="120px" height="100px" className="tenna" style={{left: left + "px", transform: `rotate(${rotation}deg)`}}/>
+      <Image src={tenna} className="tenna" style={{left: left + "px", transform: `rotate(${rotation}deg)`}} alt="tenna"/>
       <div className="video-container">
         <iframe width="200" height="200" src={theVideo} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
       </div>
       <a href={theVideo} target="_blank">See the answer</a>
       <button onClick={handleClick}>
-        <Image src={next} width="120px" height="100px"/>
+        <Image src={next} alt="next"/>
       </button>
     </div>
   );

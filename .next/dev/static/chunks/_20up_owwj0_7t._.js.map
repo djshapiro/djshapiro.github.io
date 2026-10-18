@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 13, "column": 0}, "map": {"version":3,"sources":["file:///Users/dan/code/djshapiro.github.io/next.png.mjs%20(structured%20image%20object%20with%20data%20url)"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 375, height: 302, blurWidth: 8, blurHeight: 6, blurDataURL: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAGCAYAAAD+Bd/7AAAA0UlEQVR42gHGADn/AH9zbP8+KSP/HA8P/yQSEP8wGRX/Lh0Z/y8gHP8jFxj/AHZoYf8rHhv/FAwN/x4PDv9KKSL/bkE1/zEiHf8fERD/AFNDPP8rHxz/Gg8P/xUKC/9mNSj/f0Y3/zAbF/8aDAz/AFI7Lv9rW0j/hXhh/yAUEv9AHRb/PyEb/yYSD/8hExL/AHphQ/+sk2P/uayM/3RrY/9vXlv/X1RT/zUkI/8zIyb/AHJgVv+AbV3/rqyq/6Cdnf+QjY3/ioaG/2xlZf9VTFD/sBhVkVPiuP4AAAAASUVORK5CYII=\"};\n"],"names":["src","width","height","blurWidth","blurHeight","blurDataURL"],"mappings":";;;;AAAA;;uCACe;IAAEA,KAAAA,yHAAG;IAAEC,OAAO;IAAKC,QAAQ;IAAKC,WAAW;IAAGC,YAAY;IAAGC,aAAa;AAA4X"}}]
-}

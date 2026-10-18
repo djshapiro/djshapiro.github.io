@@ -7,6 +7,19 @@ import tenna from '../tenna.webp';
 const videos = [
   "https://www.youtube.com/embed/XEdoMoV4D6k?si=4lEO7KBNjeu-0Ihw",
   "https://www.youtube.com/embed/NlrYJXWF-yQ?si=zIgmL20c8FZ45yZU",
+  "https://www.youtube.com/embed/xbUi1uDwPAY?si=jYIDE-o_S6bOkBHf",
+  "https://www.youtube.com/embed/C3klVnJpCFY?si=dso4GQ_xp44ASNvc",
+  "https://www.youtube.com/embed/iJtIX0sQn0o?si=wR9QVho5TuDe_8PK",
+  //cliffs
+  "https://www.youtube.com/embed/5xmcQqEj3G4?si=8z6LVOpP8o9vwbjb",
+  //the chase
+  "https://www.youtube.com/embed/hWWVWfQW1H4?si=Y9GnNm_Y9E4b1Uzo",
+  //thelegend
+  "https://www.youtube.com/embed/PibYmujLubI?si=p8IMWQnoxycP3mH-",
+  //lancer
+  "https://www.youtube.com/embed/GAhBQH0Kf1I?si=_MH3mE1y4OrDOx71",
+  //Rude Buster
+  "https://www.youtube.com/embed/GPL5Hkl11IQ?si=OnSARjsOPcR78JFK",
 ]
 
 const random = (array: any[]) => {
